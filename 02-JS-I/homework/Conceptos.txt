@@ -1,0 +1,44 @@
+Homework: Introducción a Javascript
+
+ Definición de conceptos
+  
+   -Variables: elemento dentro del código, donde puedo guardar un valor, a su vez, puedo utilizarle
+    para diferentes operaciones.
+	Por ejemplo: declaro la variable a:
+	var a = 10;
+	Luego puedo utilizarla en una suma:
+	a+1; 	
+	
+	
+   -Strings: elemento dentro del codigo que funciona como cadena de caracteres, por lo general 
+    letras-palabras encerradas dentro de comillas, aunque cabe anotar que también puede ser un número.
+	Ejemplo: 'casa'; '1';
+	
+	
+   -Funciones: con esta puedo agrupar código para utilizarlo todas las veces que necesite. Una 
+    ventaja de hacerlo es tener un escritura de código mas legible y ordenada debido a que me 
+    evito el ser repetitiva. 
+	
+		-Argumentos: son los parámetros que recibirá mi función para utilizar en la lógica del
+		 código escrito dentro de él.
+		
+		-Return: este elemento me ayuda a devolver(retornar) un elemento dado dentro del código.
+                 Cuando el Return aparece en el código el intérprete entiende que es el fin de la función.
+		 
+	
+   -Declaraciones if: es una herramienta que aporta a la lógica del código permitiendo generar 
+    preguntas. Este me va devolver un valor booleano, es decir, va interpretar si lo que pregunté 
+	es falso o verdadero.
+	Por ejemplo: 
+	if(10>9){
+		console.log('10 es mayor que 9');
+	}
+	El intérprete leería el código y se preguntaría si 10 es mayor que 9, como eso es cierto entraría
+	a leer el código dentro de las llaves e imprimiría: 10 es mayor que 9. Si por el contrario fuera falso
+        no entraría dentro del if y por tanto, tampoco ejecutaría el código que posee.
+	Cabe señalar que puedo hacer mas preguntas si agrego un else if, o indicar con un else que si no 
+	es lo primero entonces es lo que esta dentro de este último.
+	
+	
+   -Booleano: el valor booleano es un elemento que le ayuda al intérprete en la lógica de la lectura del 
+    código para ejecutar decisiones. Este puede ser true o false y se aplicaría como el ejemplo del if.
