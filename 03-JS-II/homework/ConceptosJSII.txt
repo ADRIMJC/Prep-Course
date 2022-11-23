@@ -1,0 +1,35 @@
+Homework Javascript II
+
+	Definición de conceptos
+	
+		-for: es un statement que tiene una función bucle, es decir, que repite un código, contribuyendo
+		      asi a evitar repeticiones innecesarias y hace mas eficiente la escritura del código.
+			  Por ejemplo, si quiero imprimir 5 veces la palabra "hola", en vez de ejecutar 5 veces console.log
+			  con el mensaje, simplemente utilizo el for para recorrer e imprimir de manera más rápida. 
+			  for(var i=1; i<=5; i++){
+				console.log("hola");
+			  }
+			  Después de que i tome el valor de 6 el for se detendrá pues 6 no es <= 5.
+			  
+			  
+	    -&& || !: son operadores lógicos booleanos que ayudan al intérprete en la lectura de la 
+		          lógica del código.
+				  
+				  &&: quiere decir "and" e indica que todas las condiciones dadas deben cumplirse para ser verdadero.
+					  Por ejemplo: 
+					  var a=10;
+					  if(a<11 && a>3){
+					    //código
+					  }
+					  
+				  ||: quiere decir "or" e indica que dentro las condiciones dadas con que una se cumpla es suficiente.	
+					  Por ejemplo: 
+					  var a=10;
+					  if(a>13 || a<11){
+					    //código
+					  }
+					  En este caso se cumple la segunda condición porque 10 es menor que 11, entonces ingresaría.
+					  
+				   !: quiere decir "not" y hace que la condición tenga un valor opuesto al planteado.
+					  Por ejemplo:
+					  !true = false
