@@ -1,0 +1,14 @@
+Homework Javascript III
+
+	Definición de conceptos
+	
+		-Arrays: es una lista de elementos que estan ordenados.
+		         Esta compuesto por: el nombre que se le asigna, corchetes y los elementos que contendrá, los cuales, a su vez, van separados por comas.
+				 Por ejemplo:
+				 var frutas = ['pera', 'manzana', 'fresa', 'mandarina'];
+				 Cada elemento es una posición que definimos como índices y comienza desde cero, 
+				 es decir: 
+				          0         1         2         3
+				       ['pera', 'manzana', 'fresa', 'mandarina']
+					   
+				-El elemento -pera- esta en el índice cero(0). Este dato puede ayudar a realizar modificaciones.
