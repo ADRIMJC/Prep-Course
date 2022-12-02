@@ -1,0 +1,33 @@
+Homework Javascript IV
+
+	Definición de conceptos
+	
+		- Objetos: 
+			Conjunto de propiedades reunidas en una variable. Un objeto me permite llevar algo del mundo real a la programación.
+		- Propiedades: 
+			elemento dentro del objeto que consta de nombre y un valor.
+		- Métodos: 
+			es un bloque de código que puedo reutilizar una y otra vez sin necesidad de estar escribiéndolo cada vez.
+		- Bucle for...in: 
+			es otra forma de loop, cuya escritura es incluso más sencilla.
+			Esta puede recorrer el objeto a través de sus propiedades.
+		- Notación de puntos vs notación de corchetes:
+			Ambas son formas para acceder a una propiedad del objeto.
+			
+			La notación de puntos (dot notation) es más rápida para escribir, por ejemplo: 
+			tengo un objeto carro y necesito la propiedad color (carro.color).
+			Por su fácil uso suele ser más utilizada pero, tiene como desventaja que si, por ejemplo, creo una variable que 
+			contenga una de las propiedades no puedo llamar a la variable directamente porque el intérprete la entendería como una propiedad.
+			Por ejemplo:
+			tengo la propiedad color de objeto carro, y la agrego a una variable:
+			var a = 'color'
+			no puedo acceder así: carro.a porque el intérprete buscaría una propiedad llamada 'a' dentro del objeto carro.
+			
+			Por otra parte, la notación corchetes(bracket notation) accede a una propiedad de la siguiente manera:
+			carro['color'], la diferencia con dot notation es la escritura menos rápida, pero puedo utilizarla con las variables 
+			sin problemas. Por ejemplo:
+			var a = 'color'
+			carro[a] = 'rojo'
+			
+			
+			
