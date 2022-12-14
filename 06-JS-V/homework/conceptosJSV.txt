@@ -1,0 +1,14 @@
+Solución conceptos JSV
+
+	-Prototype: 
+		Es una forma de herencia, donde un objeto que hemos creado tiene conexión con otro objeto padre
+		que sería el prototipo. Gracias a ello, si el objeto creado busca una propiedad y no la encuentra
+		se dirije al prototipo para ver si este la posee para usarlo, en caso contrario sacaría error.
+		Actuar de esta manera genera que se puedan reutilizar las propiedades y métodos, por lo cual,
+		ahorramos memoria.
+		
+		
+	-Constructors: 
+		Es un método que crea objetos. Este puede recibir paramétros para dar valor a las propiedades.
+		
+		
