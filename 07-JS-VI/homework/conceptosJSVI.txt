@@ -1,0 +1,5 @@
+Conceptos JSVI
+	
+	- Funciones callback: nos referimos a funciones callback cuando pasamos una función como argumento de otra.
+	
+		
